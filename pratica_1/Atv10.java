@@ -1,4 +1,4 @@
-package programacao_solucao_computacional;
+package programacao_solucao_computacional.pratica_1;
 import java.util.Scanner;
 public class Atv10 {
 
@@ -19,6 +19,8 @@ public class Atv10 {
 				"\nE o volume é: " + v );
 		
 		System.exit(0);
+		input.close();
+		
 	}
 
 }

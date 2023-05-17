@@ -1,4 +1,4 @@
-package programacao_solucao_computacional;
+package programacao_solucao_computacional.pratica_1;
 import java.util.Scanner;
 import java.time.YearMonth;
 public class Atv2 {
@@ -20,6 +20,7 @@ public class Atv2 {
 			"\nEm 2050 você terá: " + idade_2050 + ".");
 
 	System.exit(0);
+	input.close();
 	
 	}
 

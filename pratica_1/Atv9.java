@@ -1,4 +1,4 @@
-package programacao_solucao_computacional;
+package programacao_solucao_computacional.pratica_1;
 import java.util.Scanner;
 public class Atv9 {
 
@@ -20,6 +20,8 @@ public class Atv9 {
 		System.out.printf("O valor da hipotenusa é de: %.2f ", (a));
 		
 		System.exit(0);
+		input.close();
+		
 	}
 
 }

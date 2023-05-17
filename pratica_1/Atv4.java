@@ -1,4 +1,4 @@
-package programacao_solucao_computacional;
+package programacao_solucao_computacional.pratica_1;
 import java.util.Scanner;
 public class Atv4 {
 
@@ -15,6 +15,7 @@ public class Atv4 {
 		System.out.printf("Seu novo salário é: R$%.2f .", (salario_final));
 		
 		System.exit(0);
+		input.close();
 		
 	}
 

@@ -1,4 +1,4 @@
-package programacao_solucao_computacional;
+package programacao_solucao_computacional.pratica_1;
 
 import java.util.Scanner;
 
@@ -16,7 +16,8 @@ public class Atv6 {
 		System.out.println("A temperatura em Fahrenheit é de:  " + fahrenheit + ".");
 		
 		System.exit(0);
-
+		input.close();
+		
 	}
 
 }

@@ -1,4 +1,4 @@
-package programacao_solucao_computacional;
+package programacao_solucao_computacional.pratica_1;
 import java.util.Scanner;
 public class Atv5 {
 
@@ -18,7 +18,8 @@ public class Atv5 {
 		System.out.println("A área do losango é de: " + area + ".");
 		
 		System.exit(0);
-	
+		
+		input.close();
 	}
 
 }

@@ -1,4 +1,4 @@
-package programacao_solucao_computacional;
+package programacao_solucao_computacional.pratica_1;
 import java.util.Scanner;
 public class Atv11 {
 
@@ -7,18 +7,21 @@ public class Atv11 {
 		
 		int n, i, p;
 		
-		i = 0;
+		i = -1;
 		p = 10;
 		
 		System.out.print("Informe um numero: ");
 		n = input.nextInt();
 		
 		while (i < p) {
+			
 			System.out.println(n + "x" + (i+1) + "=" + ((i+1) * n) + " ");
-			i=i+1;			
+			
+			i = i + 1;			
 		}
 		
 		System.exit(0);
+		input.close();
 		
 	}
 

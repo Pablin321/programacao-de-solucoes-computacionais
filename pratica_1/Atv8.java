@@ -1,4 +1,4 @@
-package programacao_solucao_computacional;
+package programacao_solucao_computacional.pratica_1;
 import java.util.Scanner;
 public class Atv8 {
 
@@ -17,7 +17,9 @@ public class Atv8 {
 		System.out.println("O peso caso engorde 15% é de: " + peso2 + 
 				" e caso engorde 20% é de: " + peso3);
 		
-		System.exit(0);		
+		System.exit(0);
+		input.close();
+		
 	}
 
 }

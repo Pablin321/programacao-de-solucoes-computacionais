@@ -1,6 +1,6 @@
-package programacao_solucao_computacional;
+package programacao_solucao_computacional.pratica_2;
 import java.util.Scanner;
-public class Atv15 {
+public class Atv4 {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -28,6 +28,7 @@ public class Atv15 {
 			System.out.print("Você está com Obesidade Mórbida. ");
 		
 		System.exit(0);
+		input.close();
 		
 	}
 

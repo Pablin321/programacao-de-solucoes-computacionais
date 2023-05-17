@@ -1,4 +1,4 @@
-package programacao_solucao_computacional;
+package programacao_solucao_computacional.pratica_1;
 import java.util.Scanner;
 
 public class Atv3 {
@@ -18,10 +18,12 @@ public class Atv3 {
 		
 		qtd_real = cotacao * qtd_dol;
 		
-		System.out.printf("A quantidade de reais que você possui é: %.2f %n",
+		System.out.printf("A quantidade de reais que você possui é: R$ %.2f %n",
 				(qtd_real));
 		
 		System.exit(0);
+		input.close();
+		
 		
 	}
 

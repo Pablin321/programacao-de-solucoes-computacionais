@@ -1,4 +1,4 @@
-package programacao_solucao_computacional;
+package programacao_solucao_computacional.pratica_1;
 import java.util.Scanner;
 public class Atv1 {
 
@@ -22,6 +22,8 @@ public class Atv1 {
 		System.out.printf("A média de notas é: %.2f .", (media));
 		
 		System.exit(0);
+		input.close();
+		
 	}
 
 }

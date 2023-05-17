@@ -1,6 +1,6 @@
-package programacao_solucao_computacional;
+package programacao_solucao_computacional.pratica_2;
 import java.util.Scanner;
-public class Atv12 {
+public class Atv1 {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -18,6 +18,7 @@ public class Atv12 {
 		}
 		
 		System.exit(0);
+		input.close();
 		
 	}
 

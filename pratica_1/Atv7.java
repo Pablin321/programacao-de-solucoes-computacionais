@@ -1,4 +1,4 @@
-package programacao_solucao_computacional;
+package programacao_solucao_computacional.pratica_1;
 import java.util.Scanner;
 public class Atv7 {
 
@@ -17,7 +17,8 @@ public class Atv7 {
 		System.out.printf("Você recebe %.2f salários mínimos.", (salario_final));
 		
 		System.exit(0);
-
+		input.close();
+		
 	}
 
 }

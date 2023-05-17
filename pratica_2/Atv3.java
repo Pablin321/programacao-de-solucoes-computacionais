@@ -1,6 +1,6 @@
-package programacao_solucao_computacional;
+package programacao_solucao_computacional.pratica_2;
 import java.util.Scanner;
-public class Atv14 {
+public class Atv3 {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -25,6 +25,7 @@ public class Atv14 {
 			System.out.println("Você foi aprovado.");
 		
 		System.exit(0);
+		input.close();
 			
 	}
 
